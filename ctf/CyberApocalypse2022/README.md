@@ -14,3 +14,6 @@ HTB CTF Event
     - Reversing
     - Misc
     - Hardware
+
+## Certificate 
+Click [here](https://github.com/parkerswierzewski/HackTheBox/blob/main/ctf/CyberApocalypse2022/CTF-Cyber-Apocalypse-2022.pdf) to view the certificate of participation for Cyber Apocalypse CTF 2022.
