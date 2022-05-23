@@ -1,2 +1,2 @@
-# HackTheBox
-Write-ups for HackTheBox (HTB)
+# Hack The Box
+Write-ups for Hack The Box (HTB)
