@@ -37,7 +37,7 @@ Execute`curl http://206.189.126.144:30887/tickets -b 'session=eyJhbGciOiJIUzI1Ni
 
 ## Tickets Page
 We now have access to the `tickets` page and have bypassed the login form! You'll also notice we're currently logged in as moderator!
-```
+```html
 <html lang="en">
    <head>
       <meta charset="UTF-8">
@@ -99,7 +99,7 @@ The serial numbers might be unique to users and useful, but it's unclear at the 
 
 ## Settings Page
 Poking around I decided to look at `/settings`. You'll notice in the code snippet above, that this new page was listed in the navigation bar.
-```
+```html
    <body>
         <nav class="nav-bar">
             <ul>
@@ -145,7 +145,7 @@ Poking around I decided to look at `/settings`. You'll notice in the code snippe
 
 ## Javascript for /settings
 I decided to look at `/static/js/settings.js` to see how exactly the password is being changed and if anything was necessary.
-```
+```javascript
 $(document).ready(function() {
 	$("#update-btn").on('click', updatePassword);
 
